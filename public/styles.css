@@ -119,6 +119,7 @@ body{
   margin: 0px;
   width: 200px;
   font-family: 'Courier New', Courier, monospace;
+  color: white;
  
 }
 .contactInfo{
@@ -126,6 +127,7 @@ body{
   margin: 0px;
   float: right;
   font-family: 'Courier New', Courier, monospace;
+  color: white;
   
 
 }
