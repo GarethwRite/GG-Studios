@@ -117,12 +117,16 @@ body{
   text-align: left;
   padding-left: 0px;
   margin: 0px;
-  width: 150px;
+  width: 200px;
+  font-family: 'Courier New', Courier, monospace;
+ 
 }
 .contactInfo{
   padding-right: 0px;
   margin: 0px;
   float: right;
+  font-family: 'Courier New', Courier, monospace;
+  
 
 }
 /* footer social media links */
