@@ -140,7 +140,8 @@ body{
 }
 /* footer social media links */
 .column {
-  float: left;
+  text-align: center;
+  display: inline;
   width: auto;
   padding: 5px;
 }
@@ -152,9 +153,9 @@ body{
     
 }
 .row{
-  text-align: left;
-  width: auto;
-  padding-left: 38%;
+  text-align: center;
+  width: 50%;
+  margin: auto;
 }
 
 .followUs{
