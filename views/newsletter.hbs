@@ -1,24 +1,16 @@
 <link rel="stylesheet" href="/styles.css" type="text/css">
 
-<div class="navbar">
-  <a href="/">Home</a>
-  <a href="/newsletter">News</a>
-  <a href="#news">Games</a>
-  <a href="#news">Apps</a>
-  <a href="#news">Forum</a>
-  <a href="#news">Store</a>
-  <a href="/about">About</a>
-</div>
+{{>menuBar}}
 
 <div class="formDiv">
-<label for="signUp" class="formLabel">sign up to our newsletter for updates</label>
+<label for="signUp" class="formLabel">sign up to our newsletter for updates<br> on upcoming games and apps</label>
 <form action="POST" class="newsletterForm">
   <label for="fname" class="formLabel">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
+  <input type="text" id="fname" name="fname" value=""><br>
   <label for="lname" class="formLabel">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br>
+  <input type="text" id="lname" name="lname" value=""><br>
   <label for="email" class="formLabel">Email:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
   <input type="submit" value="Submit">
 </form>
 </div>
