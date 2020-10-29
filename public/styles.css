@@ -11,12 +11,28 @@ body{
   margin: 0;
 }
 
+.transparentLogo{
+  width: 70%;
+  height: auto;
+  opacity: 0.4;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 50px;
+  z-index: 2;
+  
+
+}
+
 /*-----------------------------------------------------------------------------------------------*/
 /* Homepage Logo */
 /*-------------------------------------------------------------------------------------------------------*/
 .homeLogoDiv{
   text-align: center;
   position: relative;
+  width: 100%;
+  height: auto;
 }
 .homeLogoImg{
  
@@ -264,7 +280,7 @@ body{
   display: block;
   position: absolute;
   z-index: 3;
-  opacity: 0.95;
+  opacity: 0.9;
 }
 .animatedAnchortag{
   text-decoration: none; 
