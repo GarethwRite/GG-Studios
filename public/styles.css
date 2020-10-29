@@ -25,6 +25,7 @@ body{
   height: auto;
 }
 
+
 /*-----------------------------------------------------------------------------------------------*/
 /* Menu bar */
 /*--------------------------------------------------------------------------------------------------------*/
@@ -33,8 +34,8 @@ body{
 .navbar {
   overflow: hidden;
   background-color: #974b32;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: normal;
   margin: 0px;
   margin-top: 0px;
   width: 100%;
@@ -125,7 +126,7 @@ body{
   padding-left: 0px;
   margin: 0px;
   width: 200px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Orbitron', sans-serif;
   color: white;
  
 }
@@ -133,7 +134,7 @@ body{
   padding-right: 0px;
   margin: 0px;
   float: right;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Orbitron', sans-serif;
   color: white;
   
 
@@ -161,11 +162,28 @@ body{
 .followUs{
   text-align: center;
   margin: 0px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Orbitron', sans-serif;
   color: white;
 }
 
 /*------------------------------------------------------------------------------------*/
+/* News page */
+/*----------------------------------------------------------------------------------------------*/
+  .newsletterForm{
+    border: solid;
+    border-color: #974b32;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 200px;
+  }
+  .formLabel{
+    font-family:'Orbitron', sans-serif; 
+    color: white;
+  }
+.formDiv{
+  margin: 20px;
+}
 
 
 
@@ -173,9 +191,7 @@ body{
 
 
 
-
-
-
+/*------------------------------------------------------------------------------------------------*/
 
 /* Anitmated Menu Icon */
 .container {
@@ -190,6 +206,12 @@ body{
   background-color:#ee6b35;
   margin: 6px 0;
   transition: 0.4s;
+}
+
+@media all and (min-width: 800px) {
+  .bar1, .bar2, .bar3 {
+    display: none;
+  }
 }
 
 /* Rotate first bar */
@@ -207,4 +229,11 @@ body{
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
   transform: rotate(45deg) translate(-8px, -8px) ;
+}
+.footer {
+  display: none;
+}
+.change .footer {
+  display: block;
+
 }
