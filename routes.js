@@ -17,5 +17,7 @@ router.get('/newsletter', (req,res) => {
   res.render('newsletter')
 })
 
+router
+
 
 module.exports = router

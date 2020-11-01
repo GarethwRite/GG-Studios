@@ -12,15 +12,16 @@ body{
 }
 
 .transparentLogo{
-  width: 70%;
+  width: 60%;
   height: auto;
   opacity: 0.4;
   display: block;
+ 
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  bottom: 50px;
-  z-index: 2;
+  margin-bottom: 20vh;
+  z-index: 0;
   
 
 }
@@ -193,18 +194,18 @@ body{
     margin-left: 30px;
     width: 205px;
     position: relative;
-    z-index: 2;
+    z-index: 1;
   }
   .formLabel{
     font-family:'Orbitron', sans-serif; 
     color: white;
     position: relative;
-    z-index: 2;
+    z-index: 1;
   }
 .formDiv{
   margin: 20px;
   position: absolute;
-  z-index: 2;
+  z-index: 1;
 }
 
 
@@ -269,11 +270,12 @@ body{
   font-family:'Orbitron', sans-serif; 
   color: white;
   background-color:black;
-  margin: 20px;
+  margin: 8px;
   position: absolute;
   z-index: 3;
-  width: 400px;
+  width: 450px;
   padding-left: 20px;
+  border-radius: 10px;
 
 }
 .change .animatedNavbar{
